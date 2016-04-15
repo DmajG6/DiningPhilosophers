@@ -2,17 +2,17 @@ class Philosopher extends Thread{
 
 int i;
 int minThinkingTime,maxThinkingTime,minEatingTime,maxEatingTime;
-private Forks c;
+private ChopSticks c;
 private Table d;
 private String status;
 
-public Philosopher(int index,int minThinkingTime,int maxThinkingTime,int minEatingTime,int maxEatingTime, Forks forks, Table table){
+public Philosopher(int index,int minThinkingTime,int maxThinkingTime,int minEatingTime,int maxEatingTime, ChopSticks chopSticks, Table table){
     this.i = index;
     this.minThinkingTime = minThinkingTime;
     this.maxThinkingTime = maxThinkingTime;
     this.minEatingTime = minEatingTime;
     this.maxEatingTime = maxEatingTime;
-    this.c = forks;
+    this.c = chopSticks;
     this.d = table;
 } 
 
