@@ -1,8 +1,4 @@
 
-/**
-	Author: Tomas Kuric
-*/
-
 public class ChopSticks {
 
 	private int chopStickCount[];
